@@ -1,0 +1,18 @@
+<?php
+
+
+namespace {{ namespace }};
+
+
+use App\Helpers\ResponseMessages;
+use App\Interfaces\{{ interface }};
+use App\Traits\ApiResponder;
+use Exception;
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\DB;
+
+class {{ class }} implements {{ interface }}
+{
+    use ApiResponder;
+
+}
